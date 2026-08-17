@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio
     </title>
@@ -38,7 +39,29 @@
             singlehandedly writing the code, and facilitated meetings and deadlines. The code is available on the <a href="https://github.com/CooperMcAllister/TicTacToe" target="blank">Github repo.</a>
         </p>
     </div>
-    <div><h2>AVID: Autonomous Vehicular Integrated Demining</h2></div>
+    <div><h2>AVID: Autonomous Vehicular Integrated Demining</h2>
+        <p>
+            This was a semester-long project for my Engineering Project Management class. Our task was to build a device that could safely
+            remove landmines from war-torn areas. I was the electrical lead, and designed and built the entire electrical system for our vehicle,
+            with a very limited budget. I outlined the electrical hardware using SysML v2, which specified devices and connections:
+        </p>
+        <figure>
+            <img src="AVID_Electrical_System.png" width="1000" alt="AVID Electrical System Block Diagram" />
+            <figcaption><strong>AVID Electrical System Block Diagram</strong></figcaption>
+        </figure>
+        <p>
+            I then designed the main controller board in KiCad, and built it by hand using solderable breadboards, as getting a custom PCB 
+            manufactured was deemed too expensive and risky for our project:
+        </p>
+        <figure>
+            <img src="AVID_PCB_Schematic.png" width="1000" alt="AVID PCB Schematic" />
+            <figcaption><strong>AVID PCB Schematic</strong></figcaption>
+        </figure>
+        <figure>
+            <img src="AVID_PCB_Annotated.png" width="1000" alt="AVID PCB as Built" />
+            <figcaption><strong>AVID PCB as Built</strong></figcaption>
+        </figure>
+    </div>
     <div><h2>Electric Circuits Supplemental Instruction</h2>
         <p>
             As the Supplemental Instruction (SI) leader for ENGR2053 Intro to Circuits, I led weekly review sessions that included practice problems
@@ -48,7 +71,7 @@
     </div>
     <div><h2>STM32 Development Board (failed prototype)</h2>
         This was an unsuccessful prototype for a development board using the STM32F405 microcontroller. The project took about 50 hours 
-        in PCB design, assembly, and testing. More details are available <a href="STM32-development-board.html" target="blank">here.</a> 
+        in PCB design, assembly, and testing. More details are available <a href="STM32-development-board.html">here.</a> 
     </div>
     <div><h2>Autonomous Maze Navigating Robot</h2>
         This was the final project for my Microcontrollers class spring 2026. It was supposed to be a team project, but I decided to work by
@@ -57,4 +80,4 @@
     </div>
     <div><h2>Sedulous Injection Molding Machine</h2></div>
 </body>
-</html> 
+</html>
