@@ -9,6 +9,7 @@ body {
 }
 
 figure {
+  width: 100vw;
   text-align: center;
 }
 
