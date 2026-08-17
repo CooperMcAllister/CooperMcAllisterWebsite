@@ -4,7 +4,8 @@ body {
   max-width: 1500px;  /* Upper bound limit */
   width: 100%;        /* Allows responsive shrinking */
   margin: 0 auto;     /* Keeps layout centered */
-  padding: 20px;
+  padding: 30px;
+  box-sizing: border-box;
 }
 
 figure {
