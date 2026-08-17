@@ -9,8 +9,14 @@ body {
 }
 
 figure {
-  width: fit-content;
+  width: 100%;
   text-align: center;
+  margin: 0 auto;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
 }
 
 figcaption {
