@@ -22,3 +22,18 @@ figure img {
 figcaption {
     text-align: center;
 }
+
+.figure-sidebyside {
+  display: flex;
+  gap: 10px;
+}
+
+.figure-sidebyside figure {
+  width: 50%;
+  height: auto;
+}
+
+.figure-sidebyside img {
+  width: 100%;
+  height: auto;
+}
