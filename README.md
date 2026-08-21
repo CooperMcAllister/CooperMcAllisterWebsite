@@ -1,4 +1,4 @@
 # CooperMcAllisterWebsite
-This repo contains all the files for my [personal website](coopermcallister.com).
+This repo contains all the files for my [personal website](https://coopermcallister.com).
 
 My website was previously hosted on Workpress, and after the homepage mysteriously broke, I decided instead of trying to fix it (which probably would have taken about 15 minutes), to spend a few days learning the basics of html, css, and web development and just remake my website from scratch. I did not use any AI in the creation of this website except for the automatic Gemini responses to simple inquiries on Google, because I wanted to actually learn enough to write the code myself. The website is very simple, but it is sufficient to contain my portfolio, resume, and a bit about myself. I used VS code to write the code, GitHub for version control and cloud storage, and SiteGround for hosting. Making updates simply involves updating the code, committing and pushing the changes to GitHub, then accessing the server via SSH and doing git pull.
